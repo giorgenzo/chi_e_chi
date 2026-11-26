@@ -27,7 +27,7 @@ Se una richiesta contraddice questi documenti, segnalalo prima di procedere. Se 
 - Parla sempre in **italiano**.
 - Procedi **un passo per volta**: proponi cosa stai per fare e aspetta il mio "via" prima dei passaggi importanti.
 - Spiega le modifiche e le scelte in modo tecnico ma non troppo, anche con la logica di business dietro.
-- I comandi da eseguire vanno scritti per **PowerShell** (Windows). Niente `if {...}` con `else` sulla riga dopo: comandi singoli, o `} else {` sulla stessa riga.
+- I comandi da eseguire vanno scritti per macOS (zsh). Se lavoro da Windows te lo dico e passi a PowerShell.
 - Alla fine di ogni risposta operativa: **riepilogo passo passo numerato**, con comandi pronti da copiare e, per ogni passo, cosa devo vedere.
 - **Non fare commit, push o pubblicazioni senza la mia conferma esplicita.**
 - Distingui quando serve: cosa hai **verificato**, cosa **deduci**, cosa **non sai**.
