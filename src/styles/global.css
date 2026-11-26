@@ -1,0 +1,462 @@
+/* ==========================================================================
+   Token da DESIGN.md
+   ========================================================================== */
+:root {
+  --bg: #000000;
+  --surface-1: #121212;
+  --surface-2: #1c1c1e;
+  --border: #2a2a2c;
+  --text-1: #f5f5f5;
+  --text-2: #a1a1a6;
+  --text-3: #8e8e93;
+  --accent: #22c55e;
+  --on-accent: #03140a;
+  --accent-soft: rgba(34, 197, 94, 0.14);
+  --warning: #f5a524;
+
+  /* Dimensione base del testo: 16px nei browser, 17px su iPhone con -apple-system-body.
+     I caratteri seguono l'impostazione del telefono fino a +30%, poi si fermano. */
+  --base: 16;
+  --fs-11: min(calc(11rem / var(--base)), 14.3px);
+  --fs-13: min(calc(13rem / var(--base)), 16.9px);
+  --fs-15: min(calc(15rem / var(--base)), 19.5px);
+  --fs-17: min(calc(17rem / var(--base)), 22.1px);
+  --fs-22: min(calc(22rem / var(--base)), 28.6px);
+
+  --col: 430px;
+  --tabbar-h: 56px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  --t-press: 100ms;
+  --t-sheet: 200ms;
+  --t-page: 250ms;
+  --t-swipe: 180ms;
+
+  color-scheme: dark;
+}
+
+@supports (font: -apple-system-body) {
+  html { font: -apple-system-body; }
+  :root { --base: 17; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --t-sheet: 120ms; --t-page: 120ms; --t-swipe: 0ms; }
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-1);
+  font-family: -apple-system, 'SF Pro Text', Roboto, 'Segoe UI', sans-serif;
+  font-size: var(--fs-15);
+  line-height: 1.35;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+button, input { font: inherit; color: inherit; }
+button { background: none; border: 0; padding: 0; cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+svg { display: block; flex-shrink: 0; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 8px; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* Colonna larga quanto un telefono, centrata (da PC). */
+#root {
+  max-width: var(--col);
+  margin: 0 auto;
+  min-height: 100dvh;
+}
+
+.fisso {
+  position: fixed;
+  left: 0; right: 0;
+  margin: 0 auto;
+  max-width: var(--col);
+}
+
+.schermata {
+  padding: calc(var(--safe-top) + 8px) 16px calc(var(--tabbar-h) + var(--safe-bottom) + 24px);
+}
+.schermata.con-ricerca { padding-bottom: calc(var(--tabbar-h) + var(--safe-bottom) + 84px); }
+
+/* Copre la zona del notch: i contenuti scorrono sotto senza sovrapporsi all'ora e alla batteria. */
+.copri-notch { top: 0; height: var(--safe-top); background: var(--bg); z-index: 40; }
+
+/* Ingresso della scheda da destra */
+@keyframes entra-da-destra { from { transform: translateX(28px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes dissolvi { from { opacity: 0; } to { opacity: 1; } }
+.entra { animation: entra-da-destra var(--t-page) ease-out; }
+@keyframes entra-da-destra-breve { from { transform: translateX(60px); opacity: 0.3; } to { transform: none; opacity: 1; } }
+@keyframes entra-da-sinistra-breve { from { transform: translateX(-60px); opacity: 0.3; } to { transform: none; opacity: 1; } }
+.entra-da-destra { animation: entra-da-destra-breve var(--t-swipe) ease-out; }
+.entra-da-sinistra { animation: entra-da-sinistra-breve var(--t-swipe) ease-out; }
+/* Suggerimento dello swipe, una volta sola: 24px andata e ritorno. */
+@keyframes accenno { 0%, 100% { transform: none; } 50% { transform: translateX(-24px); } }
+.accenno { animation: accenno 400ms ease-in-out; }
+@media (prefers-reduced-motion: reduce) {
+  .entra, .entra-da-destra, .entra-da-sinistra { animation: dissolvi var(--t-page) ease-out; }
+  .accenno { animation: none; }
+}
+
+/* Feedback al tocco */
+.tocco { transition: transform var(--t-press) linear, background-color var(--t-press) linear; }
+.tocco:active { transform: scale(0.97); }
+
+/* ==========================================================================
+   Testi
+   ========================================================================== */
+.titolo { font-size: var(--fs-22); font-weight: 700; margin: 0; letter-spacing: -0.01em; }
+.etichetta {
+  font-size: var(--fs-11); font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--text-2);
+}
+.meta { font-size: var(--fs-13); font-weight: 500; color: var(--text-2); }
+.numero { font-variant-numeric: tabular-nums; }
+
+/* ==========================================================================
+   Intestazione schermate
+   ========================================================================== */
+.testata {
+  display: flex; align-items: center; gap: 12px;
+  min-height: 52px; margin-bottom: 8px;
+}
+.testata .spazio { flex: 1; }
+
+.tasto-icona {
+  width: 44px; height: 44px; border-radius: 12px;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: var(--text-1); flex-shrink: 0;
+}
+.tasto-icona:active { background: var(--surface-2); }
+.tasto-icona.ruota svg { animation: ruota 0.8s linear infinite; }
+@keyframes ruota { to { transform: rotate(360deg); } }
+
+/* ==========================================================================
+   Barra in basso
+   ========================================================================== */
+.tabbar {
+  bottom: 0; z-index: 30;
+  display: flex;
+  height: calc(var(--tabbar-h) + var(--safe-bottom));
+  padding-bottom: var(--safe-bottom);
+  background: var(--surface-1);
+  border-top: 1px solid var(--border);
+}
+.tabbar.nascosta { display: none; }
+.tabbar a {
+  flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 2px; color: var(--text-2); font-size: var(--fs-11); font-weight: 600;
+  position: relative; min-height: 44px;
+}
+.tabbar a.attiva { color: var(--text-1); }
+.tabbar .icona { position: relative; }
+.pallino {
+  position: absolute; top: -4px; left: calc(100% - 6px);
+  min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px;
+  background: var(--accent); color: var(--on-accent);
+  font-size: 11px; font-weight: 700; line-height: 18px; text-align: center;
+}
+
+/* ==========================================================================
+   Selettore categoria
+   ========================================================================== */
+.selettore-wrap {
+  position: sticky; top: var(--safe-top); z-index: 10;
+  background: var(--bg);
+  margin: 0 -16px; padding: 4px 16px 8px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.segmenti {
+  display: flex; background: var(--surface-1); border-radius: 12px; padding: 3px; gap: 3px;
+}
+.segmenti button {
+  flex: 1; min-height: 40px; border-radius: 10px;
+  font-size: var(--fs-15); font-weight: 600; color: var(--text-2);
+}
+.segmenti button[aria-pressed='true'] { background: var(--surface-2); color: var(--text-1); }
+.segmenti.piccoli button { min-height: 36px; font-size: var(--fs-13); }
+
+/* ==========================================================================
+   Stemma segnaposto e logo
+   ========================================================================== */
+.stemma {
+  border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 800; letter-spacing: -0.02em; flex-shrink: 0;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+/* ==========================================================================
+   Card club
+   ========================================================================== */
+.lista { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.card-club {
+  display: flex; align-items: center; gap: 12px;
+  min-height: 72px; padding: 8px 4px 8px 12px;
+  background: var(--surface-1); border-radius: 14px;
+  transition: background-color 600ms ease-in-out, transform var(--t-press) linear;
+}
+.card-club:active { transform: scale(0.98); }
+.card-club.evidenzia { background: var(--accent-soft); transition: none; }
+.card-club .corpo { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.card-club .nome { font-size: var(--fs-17); font-weight: 600; }
+.card-club .anteprima { font-size: var(--fs-13); color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* ==========================================================================
+   Stella Preferito
+   ========================================================================== */
+.stella { color: var(--text-3); }
+.stella[aria-pressed='true'] { color: var(--accent); }
+
+/* ==========================================================================
+   Scheda club
+   ========================================================================== */
+.scheda-testa { display: flex; align-items: center; gap: 12px; margin: 4px 0 12px; }
+.scheda-testa .info { flex: 1; min-width: 0; }
+.scheda-testa .aggiornato { display: flex; align-items: center; gap: 2px; margin-top: 2px; }
+.scheda-testa .aggiornato .tasto-icona { width: 36px; height: 36px; margin: -6px 0; color: var(--text-2); }
+
+.sfoglia {
+  display: flex; align-items: center; justify-content: space-between;
+  background: var(--surface-1); border-radius: 12px; margin-bottom: 12px;
+}
+.sfoglia .tasto-icona:disabled { color: var(--border); }
+.sfoglia .posizione { font-size: var(--fs-13); font-weight: 500; color: var(--text-2); text-align: center; }
+
+.tabs { display: flex; border-bottom: 1px solid var(--border); margin-bottom: 12px; }
+.tabs button {
+  flex: 1; min-height: 44px; font-size: var(--fs-15); font-weight: 600; color: var(--text-2);
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected='true'] { color: var(--text-1); border-color: var(--text-1); }
+
+.swipe-area { touch-action: pan-y; will-change: transform; }
+
+.sezione { margin: 20px 0 8px; }
+.blocco { background: var(--surface-1); border-radius: 14px; overflow: hidden; }
+.blocco + .sezione { margin-top: 20px; }
+
+/* ==========================================================================
+   Riga persona
+   ========================================================================== */
+.riga {
+  display: flex; align-items: center; gap: 8px;
+  min-height: 64px; padding: 8px 8px 8px 14px;
+}
+.riga + .riga { border-top: 1px solid var(--border); }
+.riga { transition: background-color 600ms ease-in-out; }
+.riga.evidenziata { background: var(--accent-soft); transition: none; }
+.riga .corpo { flex: 1; min-width: 0; }
+.riga .ruolo {
+  font-size: var(--fs-13); font-weight: 500; color: var(--text-2);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.riga .nome {
+  font-size: var(--fs-17); font-weight: 600;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  overflow-wrap: anywhere;
+}
+.riga .nome .stella-inline {
+  display: inline-flex; vertical-align: -3px; margin-left: 4px; position: relative;
+}
+.riga .nome .stella-inline::after { content: ''; position: absolute; inset: -12px; }
+.riga .vacante { font-size: var(--fs-15); color: var(--text-3); font-style: italic; }
+.riga .azioni { display: flex; align-items: center; justify-content: flex-end; gap: 8px; flex-shrink: 0; }
+
+/* Il nome non si taglia mai: su righe strette il tasto si accorcia ("+ Numero"),
+   con caratteri molto grandi i tasti scendono sotto il nome. Misure in em: seguono i caratteri. */
+.blocco { container-type: inline-size; }
+.riga { flex-wrap: wrap; }
+.riga .breve { display: none; }
+@container (max-width: 25em) {
+  .riga .lungo { display: none; }
+  .riga .breve { display: inline; }
+}
+@container (max-width: 19em) {
+  .riga .azioni { flex-basis: 100%; }
+}
+.riga .dettaglio { font-size: var(--fs-13); color: var(--text-2); }
+
+.tag-nuovo {
+  display: inline-block; vertical-align: 2px; margin-left: 6px;
+  padding: 2px 6px; border-radius: 999px;
+  background: var(--accent-soft); color: var(--accent);
+  font-size: var(--fs-11); font-weight: 700; letter-spacing: 0.04em; line-height: 1.2;
+}
+
+.tasto-chiama {
+  width: 44px; height: 44px; border-radius: 12px;
+  background: var(--accent); color: var(--on-accent);
+  display: inline-flex; align-items: center; justify-content: center;
+  -webkit-touch-callout: none; user-select: none;
+}
+.tasto-contorno {
+  min-width: 44px; height: 44px; border-radius: 12px;
+  border: 1px solid var(--border); color: var(--text-1);
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+  padding: 0 9px; font-size: var(--fs-13); font-weight: 600; white-space: nowrap;
+}
+.tasto-contorno.icona { padding: 0; width: 44px; }
+.tasto-altro { width: 36px; height: 44px; color: var(--text-2); display: inline-flex; align-items: center; justify-content: center; }
+
+/* ==========================================================================
+   Recapito del club
+   ========================================================================== */
+.recapito .riga .nome { font-size: var(--fs-15); }
+
+/* ==========================================================================
+   Ricerca
+   ========================================================================== */
+.ricerca-barra {
+  z-index: 25;
+  padding: 8px 16px;
+  background: linear-gradient(to bottom, transparent, var(--bg) 30%);
+}
+.ricerca-campo {
+  display: flex; align-items: center; gap: 8px;
+  height: 48px; padding: 0 4px 0 14px;
+  background: var(--surface-2); border-radius: 12px;
+  border: 1px solid var(--border);
+}
+.ricerca-campo input {
+  flex: 1; min-width: 0; height: 100%;
+  background: none; border: 0; outline: none;
+  font-size: max(16px, var(--fs-15));
+}
+.ricerca-campo input::placeholder { color: var(--text-3); }
+.ricerca-campo input::-webkit-search-cancel-button { display: none; }
+.ricerca-campo svg { color: var(--text-3); }
+
+.risultati { padding-top: calc(var(--safe-top) + 8px); }
+.gruppo-risultati { margin-bottom: 16px; }
+.ultime-ricerche li { display: flex; align-items: center; }
+.ultime-ricerche li + li { border-top: 1px solid var(--border); }
+.ultime-ricerche .testo { flex: 1; min-height: 48px; display: flex; align-items: center; gap: 10px; padding-left: 14px; text-align: left; color: var(--text-1); }
+.nessun-risultato { color: var(--text-2); text-align: center; padding: 32px 16px; }
+
+/* ==========================================================================
+   Novità
+   ========================================================================== */
+.novita-riga { display: flex; gap: 12px; align-items: center; padding: 12px 8px 12px 14px; min-height: 64px; }
+.novita-riga + .novita-riga { border-top: 1px solid var(--border); }
+.novita-riga .corpo { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; text-align: left; }
+.novita-riga .tipo { display: flex; align-items: center; gap: 6px; }
+.novita-riga .tipo.vacante { color: var(--warning); }
+.novita-riga .testo { font-size: var(--fs-15); color: var(--text-1); }
+.puntino { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+
+/* ==========================================================================
+   Stato vuoto
+   ========================================================================== */
+.vuoto {
+  display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px;
+  padding: 64px 24px; color: var(--text-3);
+}
+.vuoto p { margin: 0; color: var(--text-2); font-size: var(--fs-15); }
+
+/* ==========================================================================
+   Pannello dal basso
+   ========================================================================== */
+.velo {
+  position: fixed; inset: 0; z-index: 50;
+  background: rgba(0, 0, 0, 0.6);
+  animation: dissolvi var(--t-sheet) ease-out;
+}
+.pannello {
+  bottom: 0; z-index: 51;
+  background: var(--surface-2);
+  border-radius: 14px 14px 0 0;
+  padding: 8px 16px calc(var(--safe-bottom) + 16px);
+  animation: sale var(--t-sheet) ease-out;
+  max-height: 85dvh; overflow-y: auto;
+}
+@keyframes sale { from { transform: translateY(100%); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .pannello { animation: dissolvi var(--t-sheet) ease-out; } }
+.pannello .maniglia { width: 36px; height: 4px; border-radius: 999px; background: var(--border); margin: 0 auto 12px; }
+.pannello h2 { font-size: var(--fs-17); font-weight: 600; margin: 0; }
+.pannello .sotto { margin: 2px 0 12px; }
+.voce-menu {
+  display: flex; align-items: center; gap: 14px; width: 100%;
+  min-height: 52px; padding: 0 4px; text-align: left; font-size: var(--fs-17);
+}
+.voce-menu + .voce-menu { border-top: 1px solid var(--border); }
+.voce-menu.pericolo { color: #ff6b6b; }
+.voce-menu svg { color: var(--text-2); }
+
+.campo {
+  width: 100%; height: 52px; padding: 0 14px;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 12px;
+  font-size: max(16px, var(--fs-17)); outline: none;
+  font-variant-numeric: tabular-nums;
+}
+.campo:focus { border-color: var(--accent); }
+.errore { color: #ff6b6b; font-size: var(--fs-13); margin-top: 6px; }
+.scelta-tipo { display: flex; flex-direction: column; gap: 8px; margin: 14px 0; }
+.scelta-tipo label {
+  display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 8px 14px;
+  border: 1px solid var(--border); border-radius: 12px; cursor: pointer;
+}
+.scelta-tipo label:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.scelta-tipo input { accent-color: var(--accent); width: 20px; height: 20px; margin: 0; }
+.scelta-tipo small { display: block; color: var(--text-2); font-size: var(--fs-13); }
+.tasto-pieno {
+  width: 100%; height: 52px; border-radius: 12px;
+  background: var(--accent); color: var(--on-accent);
+  font-size: var(--fs-17); font-weight: 700;
+}
+.tasto-pieno:disabled { opacity: 0.4; }
+.nota { text-align: center; color: var(--text-2); font-size: var(--fs-13); margin-top: 10px; }
+
+/* ==========================================================================
+   Messaggi brevi (toast)
+   ========================================================================== */
+.toast-wrap {
+  z-index: 60; bottom: calc(var(--tabbar-h) + var(--safe-bottom) + 12px);
+  padding: 0 16px; pointer-events: none;
+}
+.toast-wrap.alto { bottom: calc(var(--tabbar-h) + var(--safe-bottom) + 76px); }
+.toast {
+  pointer-events: auto;
+  display: flex; align-items: center; gap: 12px;
+  min-height: 48px; padding: 0 6px 0 16px;
+  background: #2c2c2e; color: var(--text-1); border-radius: 12px;
+  font-size: var(--fs-15);
+  animation: dissolvi 150ms ease-out;
+}
+.toast .testo { flex: 1; padding: 12px 0; }
+.toast .annulla {
+  min-height: 44px; padding: 0 10px; color: var(--accent);
+  font-size: var(--fs-11); font-weight: 700; letter-spacing: 0.04em;
+}
+
+/* ==========================================================================
+   Recenti
+   ========================================================================== */
+.scorri-riga { position: relative; overflow: hidden; }
+.scorri-riga .sotto-swipe {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: flex-end;
+  padding-right: 20px; background: #7f1d1d; color: #fff; font-weight: 600; font-size: var(--fs-13);
+}
+.scorri-riga .sopra { position: relative; background: var(--surface-1); touch-action: pan-y; }
+.scorri-riga + .scorri-riga { border-top: 1px solid var(--border); }
+.tasto-testo { min-height: 44px; padding: 0 8px; color: var(--accent); font-size: var(--fs-15); font-weight: 600; }

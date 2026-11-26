@@ -112,7 +112,7 @@ Riga su `surface-1`, altezza ~72px: stemma segnaposto 40px · nome club (17/600)
 ### Riga persona
 - Ruolo (13/500, `text-2`) sopra, nome (17/600) sotto, etichetta **NUOVO** se arrivata negli ultimi 7 giorni, stellina accanto al nome.
 - Con un Numero aggiunto: tasto **Chiama** (pieno, `accent`, 44×44) + tasto **WhatsApp** (contorno, icona) + **⋯**.
-- Senza numero: tasto testuale **"+ Aggiungi numero"** (contorno) + **⋯**.
+- Senza numero: tasto testuale **"+ Aggiungi numero"** (contorno) + **⋯**. Su righe strette (telefoni fino a ~400px) il tasto diventa **"+ Numero"**; con caratteri molto grandi i tasti scendono sotto il nome. Il nome non si taglia mai.
 - Menu ⋯ (pannello dal basso): Modifica numero · Email (se c'è) · Salva nei contatti.
 
 ### Pannello "Aggiungi numero"

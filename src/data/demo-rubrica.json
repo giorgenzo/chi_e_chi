@@ -1,0 +1,38 @@
+{
+  "numeri": [
+    {
+      "tipo": "personale",
+      "personaId": "p078",
+      "numero": "+39 300 000 4182"
+    },
+    {
+      "tipo": "personale",
+      "personaId": "p001",
+      "numero": "+39 300 000 2731"
+    },
+    {
+      "tipo": "personale",
+      "personaId": "p157",
+      "numero": "+39 300 000 5094"
+    },
+    {
+      "tipo": "ruolo",
+      "incaricoId": "bologna:ps:team-manager",
+      "numero": "+39 300 000 6627"
+    }
+  ],
+  "recenti": [
+    {
+      "canale": "chiamata",
+      "personaId": "p001",
+      "numero": "+39 300 000 2731",
+      "giorniFa": 1
+    },
+    {
+      "canale": "whatsapp",
+      "personaId": "p157",
+      "numero": "+39 300 000 5094",
+      "giorniFa": 3
+    }
+  ]
+}

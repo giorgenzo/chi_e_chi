@@ -1,0 +1,3726 @@
+{
+ "club": [
+  {
+   "id": "inter",
+   "nome": "Inter",
+   "citta": "Milano",
+   "categoria": "A",
+   "colori": [
+    "#1E4FA3",
+    "#FFFFFF"
+   ],
+   "sigla": "IN",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 02 000 5361",
+    "email": "settoregiovanile@inter.example"
+   },
+   "aggiornatoGiorniFa": 3
+  },
+  {
+   "id": "napoli",
+   "nome": "Napoli",
+   "citta": "Napoli",
+   "categoria": "A",
+   "colori": [
+    "#1C8ED6",
+    "#FFFFFF"
+   ],
+   "sigla": "NA",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 081 000 4775",
+    "email": "settoregiovanile@napoli.example"
+   },
+   "aggiornatoGiorniFa": 1
+  },
+  {
+   "id": "atalanta",
+   "nome": "Atalanta",
+   "citta": "Bergamo",
+   "categoria": "A",
+   "colori": [
+    "#1F57B5",
+    "#FFFFFF"
+   ],
+   "sigla": "AT",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 035 000 2815",
+    "email": "settoregiovanile@atalanta.example"
+   },
+   "aggiornatoGiorniFa": 1
+  },
+  {
+   "id": "bologna",
+   "nome": "Bologna",
+   "citta": "Bologna",
+   "categoria": "A",
+   "colori": [
+    "#A6192E",
+    "#E8EEF9"
+   ],
+   "sigla": "BO",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 051 000 6181",
+    "email": "settoregiovanile@bologna.example"
+   },
+   "aggiornatoGiorniFa": 1
+  },
+  {
+   "id": "monza",
+   "nome": "Monza",
+   "citta": "Monza",
+   "categoria": "A",
+   "colori": [
+    "#D1122B",
+    "#FFFFFF"
+   ],
+   "sigla": "MO",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 039 000 7402",
+    "email": "settoregiovanile@monza.example"
+   },
+   "aggiornatoGiorniFa": 2
+  },
+  {
+   "id": "sampdoria",
+   "nome": "Sampdoria",
+   "citta": "Genova",
+   "categoria": "B",
+   "colori": [
+    "#1B4DA8",
+    "#FFFFFF"
+   ],
+   "sigla": "SA",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 010 000 3572",
+    "email": "settoregiovanile@sampdoria.example"
+   },
+   "aggiornatoGiorniFa": 3
+  },
+  {
+   "id": "palermo",
+   "nome": "Palermo",
+   "citta": "Palermo",
+   "categoria": "B",
+   "colori": [
+    "#F2A7C3",
+    "#111111"
+   ],
+   "sigla": "PA",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 091 000 2633",
+    "email": "settoregiovanile@palermo.example"
+   },
+   "aggiornatoGiorniFa": 2
+  },
+  {
+   "id": "hellas-verona",
+   "nome": "Hellas Verona",
+   "citta": "Verona",
+   "categoria": "B",
+   "colori": [
+    "#FFD200",
+    "#0B2A6B"
+   ],
+   "sigla": "HV",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 045 000 7633",
+    "email": "settoregiovanile@hellasverona.example"
+   },
+   "aggiornatoGiorniFa": 3
+  },
+  {
+   "id": "cesena",
+   "nome": "Cesena",
+   "citta": "Cesena",
+   "categoria": "B",
+   "colori": [
+    "#1A1A1A",
+    "#FFFFFF"
+   ],
+   "sigla": "CE",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 0547 000 6449",
+    "email": "settoregiovanile@cesena.example"
+   },
+   "aggiornatoGiorniFa": 1
+  },
+  {
+   "id": "vicenza",
+   "nome": "Vicenza",
+   "citta": "Vicenza",
+   "categoria": "B",
+   "colori": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "sigla": "VI",
+   "squadreGiovanili": [
+    "Primavera",
+    "U18",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 0444 000 8761",
+    "email": "settoregiovanile@vicenza.example"
+   },
+   "aggiornatoGiorniFa": 2
+  },
+  {
+   "id": "novara",
+   "nome": "Novara",
+   "citta": "Novara",
+   "categoria": "C",
+   "girone": "A",
+   "colori": [
+    "#2F7FD3",
+    "#FFFFFF"
+   ],
+   "sigla": "NO",
+   "squadreGiovanili": [
+    "Primavera",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 0321 000 7921",
+    "email": "settoregiovanile@novara.example"
+   },
+   "aggiornatoGiorniFa": 1
+  },
+  {
+   "id": "trento",
+   "nome": "Trento",
+   "citta": "Trento",
+   "categoria": "C",
+   "girone": "A",
+   "colori": [
+    "#FFCC00",
+    "#0B2A6B"
+   ],
+   "sigla": "TR",
+   "squadreGiovanili": [
+    "Primavera",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 0461 000 1367",
+    "email": "settoregiovanile@trento.example"
+   },
+   "aggiornatoGiorniFa": 3
+  },
+  {
+   "id": "spezia",
+   "nome": "Spezia",
+   "citta": "La Spezia",
+   "categoria": "C",
+   "girone": "B",
+   "colori": [
+    "#F2F2F2",
+    "#111111"
+   ],
+   "sigla": "SP",
+   "squadreGiovanili": [
+    "Primavera",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 0187 000 5715",
+    "email": "settoregiovanile@spezia.example"
+   },
+   "aggiornatoGiorniFa": 1
+  },
+  {
+   "id": "perugia",
+   "nome": "Perugia",
+   "citta": "Perugia",
+   "categoria": "C",
+   "girone": "B",
+   "colori": [
+    "#B5121B",
+    "#FFFFFF"
+   ],
+   "sigla": "PE",
+   "squadreGiovanili": [
+    "Primavera",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 075 000 9301",
+    "email": "settoregiovanile@perugia.example"
+   },
+   "aggiornatoGiorniFa": 2
+  },
+  {
+   "id": "bari",
+   "nome": "Bari",
+   "citta": "Bari",
+   "categoria": "C",
+   "girone": "C",
+   "colori": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "sigla": "BA",
+   "squadreGiovanili": [
+    "Primavera",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 080 000 4700",
+    "email": "settoregiovanile@bari.example"
+   },
+   "aggiornatoGiorniFa": 2
+  },
+  {
+   "id": "catania",
+   "nome": "Catania",
+   "citta": "Catania",
+   "categoria": "C",
+   "girone": "C",
+   "colori": [
+    "#0F2F6B",
+    "#F26B6B"
+   ],
+   "sigla": "CT",
+   "squadreGiovanili": [
+    "Primavera",
+    "U17",
+    "U16",
+    "U15"
+   ],
+   "recapito": {
+    "telefono": "+39 095 000 9575",
+    "email": "settoregiovanile@catania.example"
+   },
+   "aggiornatoGiorniFa": 2
+  }
+ ],
+ "persone": [
+  {
+   "id": "p001",
+   "nome": "Sara",
+   "cognome": "Corradini",
+   "email": "s.corradini@inter.example"
+  },
+  {
+   "id": "p002",
+   "nome": "Fabio",
+   "cognome": "Trevisani"
+  },
+  {
+   "id": "p003",
+   "nome": "Lorenzo",
+   "cognome": "De Cesare",
+   "email": "l.decesare@inter.example"
+  },
+  {
+   "id": "p004",
+   "nome": "Nicola",
+   "cognome": "Masetti"
+  },
+  {
+   "id": "p005",
+   "nome": "Samuele",
+   "cognome": "Zuccheri"
+  },
+  {
+   "id": "p006",
+   "nome": "Tommaso",
+   "cognome": "Baldelli",
+   "email": "t.baldelli@inter.example"
+  },
+  {
+   "id": "p007",
+   "nome": "Manuel",
+   "cognome": "Rossetti"
+  },
+  {
+   "id": "p008",
+   "nome": "Salvatore",
+   "cognome": "Pirovano",
+   "email": "s.pirovano@inter.example"
+  },
+  {
+   "id": "p009",
+   "nome": "Giacomo",
+   "cognome": "Cavalieri",
+   "email": "g.cavalieri@inter.example"
+  },
+  {
+   "id": "p010",
+   "nome": "Giacomo",
+   "cognome": "Gambardella"
+  },
+  {
+   "id": "p011",
+   "nome": "Marcello",
+   "cognome": "Martinelli"
+  },
+  {
+   "id": "p012",
+   "nome": "Salvatore",
+   "cognome": "Lombardini"
+  },
+  {
+   "id": "p013",
+   "nome": "Fabio",
+   "cognome": "Pedrazzi"
+  },
+  {
+   "id": "p014",
+   "nome": "Luca",
+   "cognome": "Giordanetti",
+   "email": "l.giordanetti@inter.example"
+  },
+  {
+   "id": "p015",
+   "nome": "Filippo",
+   "cognome": "Paolucci",
+   "email": "f.paolucci@inter.example"
+  },
+  {
+   "id": "p016",
+   "nome": "Sergio",
+   "cognome": "Paolucci"
+  },
+  {
+   "id": "p017",
+   "nome": "Matteo",
+   "cognome": "Galeazzi"
+  },
+  {
+   "id": "p018",
+   "nome": "Roberto",
+   "cognome": "Fiorentini"
+  },
+  {
+   "id": "p019",
+   "nome": "Cristian",
+   "cognome": "Tondelli",
+   "email": "c.tondelli@napoli.example"
+  },
+  {
+   "id": "p020",
+   "nome": "Elena",
+   "cognome": "Fornasari",
+   "email": "e.fornasari@napoli.example"
+  },
+  {
+   "id": "p021",
+   "nome": "Riccardo",
+   "cognome": "Carminati"
+  },
+  {
+   "id": "p022",
+   "nome": "Carlo",
+   "cognome": "Gualtieri",
+   "email": "c.gualtieri@napoli.example"
+  },
+  {
+   "id": "p023",
+   "nome": "Raffaele",
+   "cognome": "Molinari"
+  },
+  {
+   "id": "p024",
+   "nome": "Lorenzo",
+   "cognome": "Bassani",
+   "email": "l.bassani@napoli.example"
+  },
+  {
+   "id": "p025",
+   "nome": "Chiara",
+   "cognome": "Maffei",
+   "email": "c.maffei@napoli.example"
+  },
+  {
+   "id": "p026",
+   "nome": "Mattia",
+   "cognome": "Terenzi",
+   "email": "m.terenzi@napoli.example"
+  },
+  {
+   "id": "p027",
+   "nome": "Daniele",
+   "cognome": "Rossetti",
+   "email": "d.rossetti@napoli.example"
+  },
+  {
+   "id": "p028",
+   "nome": "Davide",
+   "cognome": "Venturelli"
+  },
+  {
+   "id": "p029",
+   "nome": "Samuele",
+   "cognome": "Martinelli",
+   "email": "s.martinelli@napoli.example"
+  },
+  {
+   "id": "p030",
+   "nome": "Francesco",
+   "cognome": "Bellandi",
+   "email": "f.bellandi@napoli.example"
+  },
+  {
+   "id": "p031",
+   "nome": "Marcello",
+   "cognome": "Paolucci",
+   "email": "m.paolucci@atalanta.example"
+  },
+  {
+   "id": "p032",
+   "nome": "Andrea",
+   "cognome": "Bellandi",
+   "email": "a.bellandi@atalanta.example"
+  },
+  {
+   "id": "p033",
+   "nome": "Gianluca",
+   "cognome": "Parisini"
+  },
+  {
+   "id": "p034",
+   "nome": "Samuele",
+   "cognome": "Cavalieri"
+  },
+  {
+   "id": "p035",
+   "nome": "Edoardo",
+   "cognome": "Vezzoli"
+  },
+  {
+   "id": "p036",
+   "nome": "Giorgio",
+   "cognome": "Montanari"
+  },
+  {
+   "id": "p037",
+   "nome": "Simone",
+   "cognome": "Righetti",
+   "email": "s.righetti@atalanta.example"
+  },
+  {
+   "id": "p038",
+   "nome": "Alberto",
+   "cognome": "Bacchetti",
+   "email": "a.bacchetti@atalanta.example"
+  },
+  {
+   "id": "p039",
+   "nome": "Giulia",
+   "cognome": "Cattaneo"
+  },
+  {
+   "id": "p040",
+   "nome": "Davide",
+   "cognome": "Bassani"
+  },
+  {
+   "id": "p041",
+   "nome": "Lorenzo",
+   "cognome": "Valentini"
+  },
+  {
+   "id": "p042",
+   "nome": "Carlo",
+   "cognome": "Albanese",
+   "email": "c.albanese@atalanta.example"
+  },
+  {
+   "id": "p043",
+   "nome": "Diego",
+   "cognome": "Brunelli",
+   "email": "d.brunelli@atalanta.example"
+  },
+  {
+   "id": "p044",
+   "nome": "Francesca",
+   "cognome": "Cerioni"
+  },
+  {
+   "id": "p045",
+   "nome": "Marco",
+   "cognome": "Morandi",
+   "email": "m.morandi@atalanta.example"
+  },
+  {
+   "id": "p046",
+   "nome": "Luca",
+   "cognome": "Pozzoli",
+   "email": "l.pozzoli@bologna.example"
+  },
+  {
+   "id": "p047",
+   "nome": "Giacomo",
+   "cognome": "Lucchesi"
+  },
+  {
+   "id": "p048",
+   "nome": "Chiara",
+   "cognome": "Negrini",
+   "email": "c.negrini@bologna.example"
+  },
+  {
+   "id": "p049",
+   "nome": "Daniele",
+   "cognome": "Sgarbossa",
+   "email": "d.sgarbossa@bologna.example"
+  },
+  {
+   "id": "p050",
+   "nome": "Raffaele",
+   "cognome": "Cortellini",
+   "email": "r.cortellini@bologna.example"
+  },
+  {
+   "id": "p051",
+   "nome": "Massimo",
+   "cognome": "Molinari"
+  },
+  {
+   "id": "p052",
+   "nome": "Mirko",
+   "cognome": "Pellacani",
+   "email": "m.pellacani@bologna.example"
+  },
+  {
+   "id": "p053",
+   "nome": "Roberto",
+   "cognome": "Tondelli",
+   "email": "r.tondelli@bologna.example"
+  },
+  {
+   "id": "p054",
+   "nome": "Alessio",
+   "cognome": "Spadoni",
+   "email": "a.spadoni@bologna.example"
+  },
+  {
+   "id": "p055",
+   "nome": "Carlo",
+   "cognome": "Capecchi",
+   "email": "c.capecchi@bologna.example"
+  },
+  {
+   "id": "p056",
+   "nome": "Giulio",
+   "cognome": "Esposti",
+   "email": "g.esposti@bologna.example"
+  },
+  {
+   "id": "p057",
+   "nome": "Cristian",
+   "cognome": "Mazzucchelli",
+   "email": "c.mazzucchelli@bologna.example"
+  },
+  {
+   "id": "p058",
+   "nome": "Edoardo",
+   "cognome": "Frattini",
+   "email": "e.frattini@bologna.example"
+  },
+  {
+   "id": "p059",
+   "nome": "Enrico",
+   "cognome": "Salvadori"
+  },
+  {
+   "id": "p060",
+   "nome": "Stefano",
+   "cognome": "Carminati",
+   "email": "s.carminati@bologna.example"
+  },
+  {
+   "id": "p061",
+   "nome": "Claudio",
+   "cognome": "Gualtieri",
+   "email": "c.gualtieri@monza.example"
+  },
+  {
+   "id": "p062",
+   "nome": "Stefano",
+   "cognome": "Ragazzini",
+   "email": "s.ragazzini@monza.example"
+  },
+  {
+   "id": "p063",
+   "nome": "Giorgio",
+   "cognome": "Torresani",
+   "email": "g.torresani@monza.example"
+  },
+  {
+   "id": "p064",
+   "nome": "Tommaso",
+   "cognome": "Cagnoni",
+   "email": "t.cagnoni@monza.example"
+  },
+  {
+   "id": "p065",
+   "nome": "Simone",
+   "cognome": "Santarelli",
+   "email": "s.santarelli@monza.example"
+  },
+  {
+   "id": "p066",
+   "nome": "Mattia",
+   "cognome": "Zanardi"
+  },
+  {
+   "id": "p067",
+   "nome": "Salvatore",
+   "cognome": "Bacchetti"
+  },
+  {
+   "id": "p068",
+   "nome": "Francesco",
+   "cognome": "Pellacani",
+   "email": "f.pellacani@monza.example"
+  },
+  {
+   "id": "p069",
+   "nome": "Vincenzo",
+   "cognome": "Montanari",
+   "email": "v.montanari@monza.example"
+  },
+  {
+   "id": "p070",
+   "nome": "Salvatore",
+   "cognome": "Garofoli"
+  },
+  {
+   "id": "p071",
+   "nome": "Daniele",
+   "cognome": "Zanardi"
+  },
+  {
+   "id": "p072",
+   "nome": "Giulia",
+   "cognome": "Valentini"
+  },
+  {
+   "id": "p073",
+   "nome": "Salvatore",
+   "cognome": "Rossetti",
+   "email": "s.rossetti@monza.example"
+  },
+  {
+   "id": "p074",
+   "nome": "Cristian",
+   "cognome": "Pedrazzi",
+   "email": "c.pedrazzi@monza.example"
+  },
+  {
+   "id": "p075",
+   "nome": "Mirko",
+   "cognome": "Della Valle",
+   "email": "m.dellavalle@monza.example"
+  },
+  {
+   "id": "p076",
+   "nome": "Laura",
+   "cognome": "Maffei",
+   "email": "l.maffei@sampdoria.example"
+  },
+  {
+   "id": "p077",
+   "nome": "Giorgio",
+   "cognome": "Scaglioni"
+  },
+  {
+   "id": "p078",
+   "nome": "Vincenzo",
+   "cognome": "Torresani",
+   "email": "v.torresani@cesena.example"
+  },
+  {
+   "id": "p079",
+   "nome": "Silvia",
+   "cognome": "Montanari",
+   "email": "s.montanari@sampdoria.example"
+  },
+  {
+   "id": "p080",
+   "nome": "Claudio",
+   "cognome": "Pagliarini",
+   "email": "c.pagliarini@sampdoria.example"
+  },
+  {
+   "id": "p081",
+   "nome": "Giorgio",
+   "cognome": "Lucchesi",
+   "email": "g.lucchesi@sampdoria.example"
+  },
+  {
+   "id": "p082",
+   "nome": "Salvatore",
+   "cognome": "Tagliaferri"
+  },
+  {
+   "id": "p083",
+   "nome": "Salvatore",
+   "cognome": "Iacobelli",
+   "email": "s.iacobelli@sampdoria.example"
+  },
+  {
+   "id": "p084",
+   "nome": "Vincenzo",
+   "cognome": "Ferraresi"
+  },
+  {
+   "id": "p085",
+   "nome": "Sara",
+   "cognome": "Pozzoli",
+   "email": "s.pozzoli@sampdoria.example"
+  },
+  {
+   "id": "p086",
+   "nome": "Giulia",
+   "cognome": "Zecchini"
+  },
+  {
+   "id": "p087",
+   "nome": "Giulio",
+   "cognome": "Righetti"
+  },
+  {
+   "id": "p088",
+   "nome": "Davide",
+   "cognome": "Lanzoni",
+   "email": "d.lanzoni@sampdoria.example"
+  },
+  {
+   "id": "p089",
+   "nome": "Federico",
+   "cognome": "Iacobelli"
+  },
+  {
+   "id": "p090",
+   "nome": "Filippo",
+   "cognome": "Tondelli"
+  },
+  {
+   "id": "p091",
+   "nome": "Diego",
+   "cognome": "Soncini",
+   "email": "d.soncini@palermo.example"
+  },
+  {
+   "id": "p092",
+   "nome": "Giacomo",
+   "cognome": "Cattaneo",
+   "email": "g.cattaneo@palermo.example"
+  },
+  {
+   "id": "p093",
+   "nome": "Fabio",
+   "cognome": "Ceccarelli",
+   "email": "f.ceccarelli@palermo.example"
+  },
+  {
+   "id": "p094",
+   "nome": "Samuele",
+   "cognome": "Bassani"
+  },
+  {
+   "id": "p095",
+   "nome": "Edoardo",
+   "cognome": "Albanese",
+   "email": "e.albanese@palermo.example"
+  },
+  {
+   "id": "p096",
+   "nome": "Claudio",
+   "cognome": "Marcheselli",
+   "email": "c.marcheselli@palermo.example"
+  },
+  {
+   "id": "p097",
+   "nome": "Valentina",
+   "cognome": "Vannucci"
+  },
+  {
+   "id": "p098",
+   "nome": "Alessio",
+   "cognome": "Iacobelli"
+  },
+  {
+   "id": "p099",
+   "nome": "Chiara",
+   "cognome": "Quaglia",
+   "email": "c.quaglia@palermo.example"
+  },
+  {
+   "id": "p100",
+   "nome": "Raffaele",
+   "cognome": "Zuccheri",
+   "email": "r.zuccheri@palermo.example"
+  },
+  {
+   "id": "p101",
+   "nome": "Alessio",
+   "cognome": "Valentini"
+  },
+  {
+   "id": "p102",
+   "nome": "Antonio",
+   "cognome": "Quaglia"
+  },
+  {
+   "id": "p103",
+   "nome": "Riccardo",
+   "cognome": "Tagliaferri",
+   "email": "r.tagliaferri@palermo.example"
+  },
+  {
+   "id": "p104",
+   "nome": "Emanuele",
+   "cognome": "Fiorentini",
+   "email": "e.fiorentini@palermo.example"
+  },
+  {
+   "id": "p105",
+   "nome": "Salvatore",
+   "cognome": "Fabbretti"
+  },
+  {
+   "id": "p106",
+   "nome": "Enrico",
+   "cognome": "Fabbretti"
+  },
+  {
+   "id": "p107",
+   "nome": "Mattia",
+   "cognome": "Zuccheri",
+   "email": "m.zuccheri@hellasverona.example"
+  },
+  {
+   "id": "p108",
+   "nome": "Raffaele",
+   "cognome": "Cerioni"
+  },
+  {
+   "id": "p109",
+   "nome": "Edoardo",
+   "cognome": "Lombardini",
+   "email": "e.lombardini@hellasverona.example"
+  },
+  {
+   "id": "p110",
+   "nome": "Roberto",
+   "cognome": "Capecchi"
+  },
+  {
+   "id": "p111",
+   "nome": "Mirko",
+   "cognome": "Brunelli"
+  },
+  {
+   "id": "p112",
+   "nome": "Pietro",
+   "cognome": "Salvadori"
+  },
+  {
+   "id": "p113",
+   "nome": "Stefano",
+   "cognome": "Tamburini"
+  },
+  {
+   "id": "p114",
+   "nome": "Laura",
+   "cognome": "Nardini",
+   "email": "l.nardini@hellasverona.example"
+  },
+  {
+   "id": "p115",
+   "nome": "Salvatore",
+   "cognome": "Campagnoli",
+   "email": "s.campagnoli@hellasverona.example"
+  },
+  {
+   "id": "p116",
+   "nome": "Paolo",
+   "cognome": "Bonfanti"
+  },
+  {
+   "id": "p117",
+   "nome": "Valerio",
+   "cognome": "Bacchetti"
+  },
+  {
+   "id": "p118",
+   "nome": "Gabriele",
+   "cognome": "Rossetti"
+  },
+  {
+   "id": "p119",
+   "nome": "Vincenzo",
+   "cognome": "Iacobelli"
+  },
+  {
+   "id": "p120",
+   "nome": "Diego",
+   "cognome": "Lucchesi"
+  },
+  {
+   "id": "p121",
+   "nome": "Antonio",
+   "cognome": "Vezzoli",
+   "email": "a.vezzoli@cesena.example"
+  },
+  {
+   "id": "p122",
+   "nome": "Roberto",
+   "cognome": "Marcheselli",
+   "email": "r.marcheselli@cesena.example"
+  },
+  {
+   "id": "p123",
+   "nome": "Valentina",
+   "cognome": "Zuccheri",
+   "email": "v.zuccheri@cesena.example"
+  },
+  {
+   "id": "p124",
+   "nome": "Simone",
+   "cognome": "Masetti"
+  },
+  {
+   "id": "p125",
+   "nome": "Martina",
+   "cognome": "Carminati"
+  },
+  {
+   "id": "p126",
+   "nome": "Enrico",
+   "cognome": "Negrini"
+  },
+  {
+   "id": "p127",
+   "nome": "Mirko",
+   "cognome": "Rizzardi"
+  },
+  {
+   "id": "p128",
+   "nome": "Massimo",
+   "cognome": "Cattaneo"
+  },
+  {
+   "id": "p129",
+   "nome": "Tommaso",
+   "cognome": "Zuccheri"
+  },
+  {
+   "id": "p130",
+   "nome": "Matteo",
+   "cognome": "Soncini",
+   "email": "m.soncini@cesena.example"
+  },
+  {
+   "id": "p131",
+   "nome": "Sergio",
+   "cognome": "Sgarbossa",
+   "email": "s.sgarbossa@cesena.example"
+  },
+  {
+   "id": "p132",
+   "nome": "Elena",
+   "cognome": "Ceccarelli"
+  },
+  {
+   "id": "p133",
+   "nome": "Enrico",
+   "cognome": "Zuccheri"
+  },
+  {
+   "id": "p134",
+   "nome": "Francesca",
+   "cognome": "Gambardella"
+  },
+  {
+   "id": "p135",
+   "nome": "Matteo",
+   "cognome": "Brambati",
+   "email": "m.brambati@cesena.example"
+  },
+  {
+   "id": "p136",
+   "nome": "Giacomo",
+   "cognome": "Tagliaferri",
+   "email": "g.tagliaferri@vicenza.example"
+  },
+  {
+   "id": "p137",
+   "nome": "Laura",
+   "cognome": "Dal Bosco"
+  },
+  {
+   "id": "p138",
+   "nome": "Matteo",
+   "cognome": "Ragazzini",
+   "email": "m.ragazzini@vicenza.example"
+  },
+  {
+   "id": "p139",
+   "nome": "Salvatore",
+   "cognome": "Bordignon",
+   "email": "s.bordignon@vicenza.example"
+  },
+  {
+   "id": "p140",
+   "nome": "Giacomo",
+   "cognome": "Valentini",
+   "email": "g.valentini@vicenza.example"
+  },
+  {
+   "id": "p141",
+   "nome": "Chiara",
+   "cognome": "Lombardini"
+  },
+  {
+   "id": "p142",
+   "nome": "Paolo",
+   "cognome": "Facchinetti",
+   "email": "p.facchinetti@vicenza.example"
+  },
+  {
+   "id": "p143",
+   "nome": "Chiara",
+   "cognome": "Carminati"
+  },
+  {
+   "id": "p144",
+   "nome": "Enrico",
+   "cognome": "Perotti",
+   "email": "e.perotti@vicenza.example"
+  },
+  {
+   "id": "p145",
+   "nome": "Francesca",
+   "cognome": "Righetti"
+  },
+  {
+   "id": "p146",
+   "nome": "Emanuele",
+   "cognome": "Quaglia",
+   "email": "e.quaglia@vicenza.example"
+  },
+  {
+   "id": "p147",
+   "nome": "Matteo",
+   "cognome": "Morandi"
+  },
+  {
+   "id": "p148",
+   "nome": "Mirko",
+   "cognome": "Cerioni"
+  },
+  {
+   "id": "p149",
+   "nome": "Antonio",
+   "cognome": "Piccinini"
+  },
+  {
+   "id": "p150",
+   "nome": "Valentina",
+   "cognome": "Salvadori"
+  },
+  {
+   "id": "p151",
+   "nome": "Manuel",
+   "cognome": "Cagnoni",
+   "email": "m.cagnoni@novara.example"
+  },
+  {
+   "id": "p152",
+   "nome": "Daniele",
+   "cognome": "Terenzi"
+  },
+  {
+   "id": "p153",
+   "nome": "Valentina",
+   "cognome": "Venturelli",
+   "email": "v.venturelli@novara.example"
+  },
+  {
+   "id": "p154",
+   "nome": "Marco",
+   "cognome": "Fiorentini"
+  },
+  {
+   "id": "p155",
+   "nome": "Michele",
+   "cognome": "Maffei",
+   "email": "m.maffei@novara.example"
+  },
+  {
+   "id": "p156",
+   "nome": "Martina",
+   "cognome": "Bordignon",
+   "email": "m.bordignon@novara.example"
+  },
+  {
+   "id": "p157",
+   "nome": "Manuel",
+   "cognome": "Serafini",
+   "email": "m.serafini@novara.example"
+  },
+  {
+   "id": "p158",
+   "nome": "Francesco",
+   "cognome": "Righetti"
+  },
+  {
+   "id": "p159",
+   "nome": "Martina",
+   "cognome": "Tagliaferri",
+   "email": "m.tagliaferri@novara.example"
+  },
+  {
+   "id": "p160",
+   "nome": "Gianluca",
+   "cognome": "Colasanti"
+  },
+  {
+   "id": "p161",
+   "nome": "Valentina",
+   "cognome": "Negrini",
+   "email": "v.negrini@novara.example"
+  },
+  {
+   "id": "p162",
+   "nome": "Stefano",
+   "cognome": "Pierantoni",
+   "email": "s.pierantoni@novara.example"
+  },
+  {
+   "id": "p163",
+   "nome": "Giulio",
+   "cognome": "Tagliaferri"
+  },
+  {
+   "id": "p164",
+   "nome": "Michele",
+   "cognome": "Ragazzini"
+  },
+  {
+   "id": "p165",
+   "nome": "Valentina",
+   "cognome": "Della Valle",
+   "email": "v.dellavalle@trento.example"
+  },
+  {
+   "id": "p166",
+   "nome": "Pietro",
+   "cognome": "Sgarbossa",
+   "email": "p.sgarbossa@trento.example"
+  },
+  {
+   "id": "p167",
+   "nome": "Martina",
+   "cognome": "Galeazzi",
+   "email": "m.galeazzi@trento.example"
+  },
+  {
+   "id": "p168",
+   "nome": "Salvatore",
+   "cognome": "Serafini"
+  },
+  {
+   "id": "p169",
+   "nome": "Marcello",
+   "cognome": "Malvezzi",
+   "email": "m.malvezzi@trento.example"
+  },
+  {
+   "id": "p170",
+   "nome": "Sergio",
+   "cognome": "Lucchesi",
+   "email": "s.lucchesi@trento.example"
+  },
+  {
+   "id": "p171",
+   "nome": "Andrea",
+   "cognome": "Masetti"
+  },
+  {
+   "id": "p172",
+   "nome": "Gianluca",
+   "cognome": "Paolucci"
+  },
+  {
+   "id": "p173",
+   "nome": "Giacomo",
+   "cognome": "Martinelli"
+  },
+  {
+   "id": "p174",
+   "nome": "Daniele",
+   "cognome": "Zuccheri"
+  },
+  {
+   "id": "p175",
+   "nome": "Luca",
+   "cognome": "Scaglioni",
+   "email": "l.scaglioni@trento.example"
+  },
+  {
+   "id": "p176",
+   "nome": "Paolo",
+   "cognome": "Pancaldi"
+  },
+  {
+   "id": "p177",
+   "nome": "Valentina",
+   "cognome": "Terenzi",
+   "email": "v.terenzi@trento.example"
+  },
+  {
+   "id": "p178",
+   "nome": "Elena",
+   "cognome": "Brunelli"
+  },
+  {
+   "id": "p179",
+   "nome": "Elena",
+   "cognome": "Paolucci"
+  },
+  {
+   "id": "p180",
+   "nome": "Samuele",
+   "cognome": "Manfredini"
+  },
+  {
+   "id": "p181",
+   "nome": "Filippo",
+   "cognome": "Facchinetti"
+  },
+  {
+   "id": "p182",
+   "nome": "Davide",
+   "cognome": "Pierantoni",
+   "email": "d.pierantoni@spezia.example"
+  },
+  {
+   "id": "p183",
+   "nome": "Samuele",
+   "cognome": "Frattini",
+   "email": "s.frattini@spezia.example"
+  },
+  {
+   "id": "p184",
+   "nome": "Andrea",
+   "cognome": "Rizzardi"
+  },
+  {
+   "id": "p185",
+   "nome": "Mirko",
+   "cognome": "Righetti"
+  },
+  {
+   "id": "p186",
+   "nome": "Valentina",
+   "cognome": "Rossetti",
+   "email": "v.rossetti@spezia.example"
+  },
+  {
+   "id": "p187",
+   "nome": "Pietro",
+   "cognome": "Rinaldini",
+   "email": "p.rinaldini@spezia.example"
+  },
+  {
+   "id": "p188",
+   "nome": "Giorgio",
+   "cognome": "Rizzardi"
+  },
+  {
+   "id": "p189",
+   "nome": "Marcello",
+   "cognome": "Negrini",
+   "email": "m.negrini@spezia.example"
+  },
+  {
+   "id": "p190",
+   "nome": "Chiara",
+   "cognome": "Galeazzi",
+   "email": "c.galeazzi@spezia.example"
+  },
+  {
+   "id": "p191",
+   "nome": "Davide",
+   "cognome": "Gualtieri",
+   "email": "d.gualtieri@spezia.example"
+  },
+  {
+   "id": "p192",
+   "nome": "Gianluca",
+   "cognome": "Iacobelli"
+  },
+  {
+   "id": "p193",
+   "nome": "Paola",
+   "cognome": "Rizzardi",
+   "email": "p.rizzardi@perugia.example"
+  },
+  {
+   "id": "p194",
+   "nome": "Sara",
+   "cognome": "Rizzardi",
+   "email": "s.rizzardi@perugia.example"
+  },
+  {
+   "id": "p195",
+   "nome": "Nicola",
+   "cognome": "Albanese",
+   "email": "n.albanese@perugia.example"
+  },
+  {
+   "id": "p196",
+   "nome": "Antonio",
+   "cognome": "Torresani"
+  },
+  {
+   "id": "p197",
+   "nome": "Mattia",
+   "cognome": "Ferraresi",
+   "email": "m.ferraresi@perugia.example"
+  },
+  {
+   "id": "p198",
+   "nome": "Sara",
+   "cognome": "Gualtieri"
+  },
+  {
+   "id": "p199",
+   "nome": "Paola",
+   "cognome": "Fiorentini"
+  },
+  {
+   "id": "p200",
+   "nome": "Mirko",
+   "cognome": "Dal Bosco",
+   "email": "m.dalbosco@perugia.example"
+  },
+  {
+   "id": "p201",
+   "nome": "Alberto",
+   "cognome": "Cavalieri",
+   "email": "a.cavalieri@perugia.example"
+  },
+  {
+   "id": "p202",
+   "nome": "Stefano",
+   "cognome": "Tondelli",
+   "email": "s.tondelli@perugia.example"
+  },
+  {
+   "id": "p203",
+   "nome": "Francesca",
+   "cognome": "Amadori"
+  },
+  {
+   "id": "p204",
+   "nome": "Elena",
+   "cognome": "Rossetti"
+  },
+  {
+   "id": "p205",
+   "nome": "Samuele",
+   "cognome": "Tagliaferri"
+  },
+  {
+   "id": "p206",
+   "nome": "Carlo",
+   "cognome": "Tagliaferri",
+   "email": "c.tagliaferri@perugia.example"
+  },
+  {
+   "id": "p207",
+   "nome": "Alberto",
+   "cognome": "Bordignon",
+   "email": "a.bordignon@bari.example"
+  },
+  {
+   "id": "p208",
+   "nome": "Paola",
+   "cognome": "Cortellini"
+  },
+  {
+   "id": "p209",
+   "nome": "Silvia",
+   "cognome": "Tamburini"
+  },
+  {
+   "id": "p210",
+   "nome": "Cristian",
+   "cognome": "Amadori",
+   "email": "c.amadori@bari.example"
+  },
+  {
+   "id": "p211",
+   "nome": "Raffaele",
+   "cognome": "Tondelli",
+   "email": "r.tondelli@bari.example"
+  },
+  {
+   "id": "p212",
+   "nome": "Silvia",
+   "cognome": "Pirovano"
+  },
+  {
+   "id": "p213",
+   "nome": "Sergio",
+   "cognome": "Righetti"
+  },
+  {
+   "id": "p214",
+   "nome": "Elena",
+   "cognome": "Amadori",
+   "email": "e.amadori@bari.example"
+  },
+  {
+   "id": "p215",
+   "nome": "Marcello",
+   "cognome": "Melandri"
+  },
+  {
+   "id": "p216",
+   "nome": "Mattia",
+   "cognome": "Corradini",
+   "email": "m.corradini@bari.example"
+  },
+  {
+   "id": "p217",
+   "nome": "Giulio",
+   "cognome": "Orlandini",
+   "email": "g.orlandini@bari.example"
+  },
+  {
+   "id": "p218",
+   "nome": "Claudio",
+   "cognome": "Brunelli",
+   "email": "c.brunelli@bari.example"
+  },
+  {
+   "id": "p219",
+   "nome": "Laura",
+   "cognome": "Cagnoni",
+   "email": "l.cagnoni@bari.example"
+  },
+  {
+   "id": "p220",
+   "nome": "Samuele",
+   "cognome": "Rizzardi"
+  },
+  {
+   "id": "p221",
+   "nome": "Samuele",
+   "cognome": "Serafini",
+   "email": "s.serafini@catania.example"
+  },
+  {
+   "id": "p222",
+   "nome": "Giacomo",
+   "cognome": "Vannucci"
+  },
+  {
+   "id": "p223",
+   "nome": "Silvia",
+   "cognome": "Pancaldi",
+   "email": "s.pancaldi@catania.example"
+  },
+  {
+   "id": "p224",
+   "nome": "Filippo",
+   "cognome": "Albanese"
+  },
+  {
+   "id": "p225",
+   "nome": "Edoardo",
+   "cognome": "Cerioni",
+   "email": "e.cerioni@catania.example"
+  },
+  {
+   "id": "p226",
+   "nome": "Riccardo",
+   "cognome": "Corradini"
+  },
+  {
+   "id": "p227",
+   "nome": "Marco",
+   "cognome": "Corradini",
+   "email": "m.corradini@catania.example"
+  },
+  {
+   "id": "p228",
+   "nome": "Alessio",
+   "cognome": "Colasanti"
+  },
+  {
+   "id": "p229",
+   "nome": "Paolo",
+   "cognome": "Sgarbossa"
+  },
+  {
+   "id": "p230",
+   "nome": "Pietro",
+   "cognome": "Gualtieri",
+   "email": "p.gualtieri@catania.example"
+  },
+  {
+   "id": "p231",
+   "nome": "Massimo",
+   "cognome": "Righetti",
+   "email": "m.righetti@catania.example"
+  },
+  {
+   "id": "p232",
+   "nome": "Paola",
+   "cognome": "Ceccarelli",
+   "email": "p.ceccarelli@catania.example"
+  },
+  {
+   "id": "p233",
+   "nome": "Raffaele",
+   "cognome": "Campagnoli",
+   "email": "r.campagnoli@catania.example"
+  },
+  {
+   "id": "p234",
+   "nome": "Valentina",
+   "cognome": "Fiorentini",
+   "email": "v.fiorentini@catania.example"
+  },
+  {
+   "id": "p235",
+   "nome": "Martina",
+   "cognome": "Bonfanti",
+   "email": "m.bonfanti@novara.example"
+  },
+  {
+   "id": "p236",
+   "nome": "Elena",
+   "cognome": "Lanzoni"
+  },
+  {
+   "id": "p237",
+   "nome": "Luca",
+   "cognome": "Soncini"
+  },
+  {
+   "id": "p238",
+   "nome": "Enrico",
+   "cognome": "Lombardini",
+   "email": "e.lombardini@palermo.example"
+  },
+  {
+   "id": "p239",
+   "nome": "Marcello",
+   "cognome": "Nardini",
+   "email": "m.nardini@atalanta.example"
+  }
+ ],
+ "incarichi": [
+  {
+   "id": "inter:ps:direttore-sportivo",
+   "clubId": "inter",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p001",
+   "dalGiorniFa": 760
+  },
+  {
+   "id": "inter:ps:direttore-area-tecnica",
+   "clubId": "inter",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p002",
+   "dalGiorniFa": 793
+  },
+  {
+   "id": "inter:ps:responsabile-scouting",
+   "clubId": "inter",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p003",
+   "dalGiorniFa": 719
+  },
+  {
+   "id": "inter:ps:allenatore",
+   "clubId": "inter",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p004",
+   "dalGiorniFa": 785
+  },
+  {
+   "id": "inter:ps:team-manager",
+   "clubId": "inter",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p005",
+   "dalGiorniFa": 595
+  },
+  {
+   "id": "inter:ps:segreteria-sportiva",
+   "clubId": "inter",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p006",
+   "dalGiorniFa": 447
+  },
+  {
+   "id": "inter:sg:responsabile-settore-giovanile",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p007",
+   "dalGiorniFa": 456
+  },
+  {
+   "id": "inter:sg:coordinatore-tecnico",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p008",
+   "dalGiorniFa": 360
+  },
+  {
+   "id": "inter:sg:responsabile-scouting-giovanile",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p009",
+   "dalGiorniFa": 417
+  },
+  {
+   "id": "inter:sg:allenatore-primavera",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p010",
+   "dalGiorniFa": 290
+  },
+  {
+   "id": "inter:sg:allenatore-u18",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p011",
+   "dalGiorniFa": 254
+  },
+  {
+   "id": "inter:sg:allenatore-u17",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p012",
+   "dalGiorniFa": 252
+  },
+  {
+   "id": "inter:sg:allenatore-u16",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p013",
+   "dalGiorniFa": 659
+  },
+  {
+   "id": "inter:sg:allenatore-u15",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p014",
+   "dalGiorniFa": 467
+  },
+  {
+   "id": "inter:sg:segreteria-settore-giovanile",
+   "clubId": "inter",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p015",
+   "dalGiorniFa": 907
+  },
+  {
+   "id": "napoli:ps:direttore-sportivo",
+   "clubId": "napoli",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p016",
+   "dalGiorniFa": 899
+  },
+  {
+   "id": "napoli:ps:direttore-area-tecnica",
+   "clubId": "napoli",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p017",
+   "dalGiorniFa": 396
+  },
+  {
+   "id": "napoli:ps:responsabile-scouting",
+   "clubId": "napoli",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p018",
+   "dalGiorniFa": 610
+  },
+  {
+   "id": "napoli:ps:allenatore",
+   "clubId": "napoli",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p019",
+   "dalGiorniFa": 280
+  },
+  {
+   "id": "napoli:ps:team-manager",
+   "clubId": "napoli",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p020",
+   "dalGiorniFa": 368
+  },
+  {
+   "id": "napoli:ps:segreteria-sportiva",
+   "clubId": "napoli",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p021",
+   "dalGiorniFa": 851
+  },
+  {
+   "id": "napoli:sg:responsabile-settore-giovanile",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p022",
+   "dalGiorniFa": 588
+  },
+  {
+   "id": "napoli:sg:coordinatore-tecnico",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p023",
+   "dalGiorniFa": 338
+  },
+  {
+   "id": "napoli:sg:responsabile-scouting-giovanile",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p024",
+   "dalGiorniFa": 214
+  },
+  {
+   "id": "napoli:sg:allenatore-primavera",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p025",
+   "dalGiorniFa": 131
+  },
+  {
+   "id": "napoli:sg:allenatore-u18",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p026",
+   "dalGiorniFa": 690
+  },
+  {
+   "id": "napoli:sg:allenatore-u17",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p027",
+   "dalGiorniFa": 737
+  },
+  {
+   "id": "napoli:sg:allenatore-u16",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p028",
+   "dalGiorniFa": 284
+  },
+  {
+   "id": "napoli:sg:allenatore-u15",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p029",
+   "dalGiorniFa": 416
+  },
+  {
+   "id": "napoli:sg:segreteria-settore-giovanile",
+   "clubId": "napoli",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p030",
+   "dalGiorniFa": 764
+  },
+  {
+   "id": "atalanta:ps:direttore-sportivo",
+   "clubId": "atalanta",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p031",
+   "dalGiorniFa": 124
+  },
+  {
+   "id": "atalanta:ps:direttore-area-tecnica",
+   "clubId": "atalanta",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p032",
+   "dalGiorniFa": 133
+  },
+  {
+   "id": "atalanta:ps:responsabile-scouting",
+   "clubId": "atalanta",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p033",
+   "dalGiorniFa": 557
+  },
+  {
+   "id": "atalanta:ps:allenatore",
+   "clubId": "atalanta",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p034",
+   "dalGiorniFa": 402
+  },
+  {
+   "id": "atalanta:ps:team-manager",
+   "clubId": "atalanta",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p035",
+   "dalGiorniFa": 457
+  },
+  {
+   "id": "atalanta:ps:segreteria-sportiva",
+   "clubId": "atalanta",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p036",
+   "dalGiorniFa": 404
+  },
+  {
+   "id": "atalanta:sg:responsabile-settore-giovanile",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p037",
+   "dalGiorniFa": 512
+  },
+  {
+   "id": "atalanta:sg:coordinatore-tecnico",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p038",
+   "dalGiorniFa": 678
+  },
+  {
+   "id": "atalanta:sg:responsabile-scouting-giovanile",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p239",
+   "dalGiorniFa": 21
+  },
+  {
+   "id": "atalanta:sg:allenatore-primavera",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p040",
+   "dalGiorniFa": 431
+  },
+  {
+   "id": "atalanta:sg:allenatore-u18",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p041",
+   "dalGiorniFa": 717
+  },
+  {
+   "id": "atalanta:sg:allenatore-u17",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p042",
+   "dalGiorniFa": 592
+  },
+  {
+   "id": "atalanta:sg:allenatore-u16",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p043",
+   "dalGiorniFa": 690
+  },
+  {
+   "id": "atalanta:sg:allenatore-u15",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p044",
+   "dalGiorniFa": 365
+  },
+  {
+   "id": "atalanta:sg:segreteria-settore-giovanile",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p045",
+   "dalGiorniFa": 736
+  },
+  {
+   "id": "bologna:ps:direttore-sportivo",
+   "clubId": "bologna",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p046",
+   "dalGiorniFa": 702
+  },
+  {
+   "id": "bologna:ps:direttore-area-tecnica",
+   "clubId": "bologna",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p047",
+   "dalGiorniFa": 404
+  },
+  {
+   "id": "bologna:ps:responsabile-scouting",
+   "clubId": "bologna",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p048",
+   "dalGiorniFa": 400
+  },
+  {
+   "id": "bologna:ps:allenatore",
+   "clubId": "bologna",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p049",
+   "dalGiorniFa": 237
+  },
+  {
+   "id": "bologna:ps:team-manager",
+   "clubId": "bologna",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p050",
+   "dalGiorniFa": 527
+  },
+  {
+   "id": "bologna:ps:segreteria-sportiva",
+   "clubId": "bologna",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p051",
+   "dalGiorniFa": 697
+  },
+  {
+   "id": "bologna:sg:responsabile-settore-giovanile",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p052",
+   "dalGiorniFa": 420
+  },
+  {
+   "id": "bologna:sg:coordinatore-tecnico",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p053",
+   "dalGiorniFa": 974
+  },
+  {
+   "id": "bologna:sg:responsabile-scouting-giovanile",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p054",
+   "dalGiorniFa": 301
+  },
+  {
+   "id": "bologna:sg:allenatore-primavera",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p055",
+   "dalGiorniFa": 706
+  },
+  {
+   "id": "bologna:sg:allenatore-u18",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p056",
+   "dalGiorniFa": 627
+  },
+  {
+   "id": "bologna:sg:allenatore-u17",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p057",
+   "dalGiorniFa": 679
+  },
+  {
+   "id": "bologna:sg:allenatore-u16",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p058",
+   "dalGiorniFa": 598
+  },
+  {
+   "id": "bologna:sg:allenatore-u15",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p059",
+   "dalGiorniFa": 133
+  },
+  {
+   "id": "bologna:sg:segreteria-settore-giovanile",
+   "clubId": "bologna",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p060",
+   "dalGiorniFa": 812
+  },
+  {
+   "id": "monza:ps:direttore-sportivo",
+   "clubId": "monza",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p061",
+   "dalGiorniFa": 978
+  },
+  {
+   "id": "monza:ps:direttore-area-tecnica",
+   "clubId": "monza",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p062",
+   "dalGiorniFa": 826
+  },
+  {
+   "id": "monza:ps:responsabile-scouting",
+   "clubId": "monza",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p063",
+   "dalGiorniFa": 445
+  },
+  {
+   "id": "monza:ps:allenatore",
+   "clubId": "monza",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p064",
+   "dalGiorniFa": 427
+  },
+  {
+   "id": "monza:ps:team-manager",
+   "clubId": "monza",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p065",
+   "dalGiorniFa": 176
+  },
+  {
+   "id": "monza:ps:segreteria-sportiva",
+   "clubId": "monza",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p066",
+   "dalGiorniFa": 143
+  },
+  {
+   "id": "monza:sg:responsabile-settore-giovanile",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p068",
+   "dalGiorniFa": 9
+  },
+  {
+   "id": "monza:sg:coordinatore-tecnico",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p237",
+   "dalGiorniFa": 9
+  },
+  {
+   "id": "monza:sg:responsabile-scouting-giovanile",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p069",
+   "dalGiorniFa": 270
+  },
+  {
+   "id": "monza:sg:allenatore-primavera",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p070",
+   "dalGiorniFa": 180
+  },
+  {
+   "id": "monza:sg:allenatore-u18",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p071",
+   "dalGiorniFa": 142
+  },
+  {
+   "id": "monza:sg:allenatore-u17",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p072",
+   "dalGiorniFa": 372
+  },
+  {
+   "id": "monza:sg:allenatore-u16",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p073",
+   "dalGiorniFa": 393
+  },
+  {
+   "id": "monza:sg:allenatore-u15",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p074",
+   "dalGiorniFa": 517
+  },
+  {
+   "id": "monza:sg:segreteria-settore-giovanile",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p075",
+   "dalGiorniFa": 877
+  },
+  {
+   "id": "sampdoria:ps:direttore-sportivo",
+   "clubId": "sampdoria",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p076",
+   "dalGiorniFa": 400
+  },
+  {
+   "id": "sampdoria:ps:direttore-area-tecnica",
+   "clubId": "sampdoria",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p077",
+   "dalGiorniFa": 610
+  },
+  {
+   "id": "sampdoria:ps:responsabile-scouting",
+   "clubId": "sampdoria",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting"
+  },
+  {
+   "id": "sampdoria:ps:allenatore",
+   "clubId": "sampdoria",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p079",
+   "dalGiorniFa": 936
+  },
+  {
+   "id": "sampdoria:ps:team-manager",
+   "clubId": "sampdoria",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p080",
+   "dalGiorniFa": 576
+  },
+  {
+   "id": "sampdoria:ps:segreteria-sportiva",
+   "clubId": "sampdoria",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p081",
+   "dalGiorniFa": 174
+  },
+  {
+   "id": "sampdoria:sg:responsabile-settore-giovanile",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p082",
+   "dalGiorniFa": 332
+  },
+  {
+   "id": "sampdoria:sg:coordinatore-tecnico",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p083",
+   "dalGiorniFa": 172
+  },
+  {
+   "id": "sampdoria:sg:responsabile-scouting-giovanile",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p084",
+   "dalGiorniFa": 301
+  },
+  {
+   "id": "sampdoria:sg:allenatore-primavera",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p085",
+   "dalGiorniFa": 263
+  },
+  {
+   "id": "sampdoria:sg:allenatore-u18",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p086",
+   "dalGiorniFa": 523
+  },
+  {
+   "id": "sampdoria:sg:allenatore-u17",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p087",
+   "dalGiorniFa": 254
+  },
+  {
+   "id": "sampdoria:sg:allenatore-u16",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p088",
+   "dalGiorniFa": 596
+  },
+  {
+   "id": "sampdoria:sg:allenatore-u15",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p089",
+   "dalGiorniFa": 599
+  },
+  {
+   "id": "sampdoria:sg:segreteria-settore-giovanile",
+   "clubId": "sampdoria",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p090",
+   "dalGiorniFa": 259
+  },
+  {
+   "id": "palermo:ps:direttore-sportivo",
+   "clubId": "palermo",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p091",
+   "dalGiorniFa": 605
+  },
+  {
+   "id": "palermo:ps:direttore-area-tecnica",
+   "clubId": "palermo",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p238",
+   "dalGiorniFa": 15
+  },
+  {
+   "id": "palermo:ps:responsabile-scouting",
+   "clubId": "palermo",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p093",
+   "dalGiorniFa": 1013
+  },
+  {
+   "id": "palermo:ps:allenatore",
+   "clubId": "palermo",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p094",
+   "dalGiorniFa": 779
+  },
+  {
+   "id": "palermo:ps:team-manager",
+   "clubId": "palermo",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p095",
+   "dalGiorniFa": 495
+  },
+  {
+   "id": "palermo:ps:segreteria-sportiva",
+   "clubId": "palermo",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p096",
+   "dalGiorniFa": 959
+  },
+  {
+   "id": "palermo:sg:responsabile-settore-giovanile",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p097",
+   "dalGiorniFa": 159
+  },
+  {
+   "id": "palermo:sg:coordinatore-tecnico",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p098",
+   "dalGiorniFa": 314
+  },
+  {
+   "id": "palermo:sg:responsabile-scouting-giovanile",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p099",
+   "dalGiorniFa": 223
+  },
+  {
+   "id": "palermo:sg:allenatore-primavera",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p100",
+   "dalGiorniFa": 649
+  },
+  {
+   "id": "palermo:sg:allenatore-u18",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p101",
+   "dalGiorniFa": 237
+  },
+  {
+   "id": "palermo:sg:allenatore-u17",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p102",
+   "dalGiorniFa": 715
+  },
+  {
+   "id": "palermo:sg:allenatore-u16",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p103",
+   "dalGiorniFa": 512
+  },
+  {
+   "id": "palermo:sg:allenatore-u15",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p104",
+   "dalGiorniFa": 293
+  },
+  {
+   "id": "palermo:sg:segreteria-settore-giovanile",
+   "clubId": "palermo",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p105",
+   "dalGiorniFa": 230
+  },
+  {
+   "id": "hellas-verona:ps:direttore-sportivo",
+   "clubId": "hellas-verona",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p106",
+   "dalGiorniFa": 274
+  },
+  {
+   "id": "hellas-verona:ps:direttore-area-tecnica",
+   "clubId": "hellas-verona",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p107",
+   "dalGiorniFa": 212
+  },
+  {
+   "id": "hellas-verona:ps:responsabile-scouting",
+   "clubId": "hellas-verona",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p108",
+   "dalGiorniFa": 684
+  },
+  {
+   "id": "hellas-verona:ps:allenatore",
+   "clubId": "hellas-verona",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p109",
+   "dalGiorniFa": 888
+  },
+  {
+   "id": "hellas-verona:ps:team-manager",
+   "clubId": "hellas-verona",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p110",
+   "dalGiorniFa": 622
+  },
+  {
+   "id": "hellas-verona:ps:segreteria-sportiva",
+   "clubId": "hellas-verona",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p111",
+   "dalGiorniFa": 929
+  },
+  {
+   "id": "hellas-verona:sg:responsabile-settore-giovanile",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p112",
+   "dalGiorniFa": 410
+  },
+  {
+   "id": "hellas-verona:sg:coordinatore-tecnico",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p113",
+   "dalGiorniFa": 219
+  },
+  {
+   "id": "hellas-verona:sg:responsabile-scouting-giovanile",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p114",
+   "dalGiorniFa": 380
+  },
+  {
+   "id": "hellas-verona:sg:allenatore-primavera",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p115",
+   "dalGiorniFa": 635
+  },
+  {
+   "id": "hellas-verona:sg:allenatore-u18",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p116",
+   "dalGiorniFa": 286
+  },
+  {
+   "id": "hellas-verona:sg:allenatore-u17",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p117",
+   "dalGiorniFa": 563
+  },
+  {
+   "id": "hellas-verona:sg:allenatore-u16",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p118",
+   "dalGiorniFa": 462
+  },
+  {
+   "id": "hellas-verona:sg:allenatore-u15",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p119",
+   "dalGiorniFa": 83
+  },
+  {
+   "id": "hellas-verona:sg:segreteria-settore-giovanile",
+   "clubId": "hellas-verona",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p120",
+   "dalGiorniFa": 720
+  },
+  {
+   "id": "cesena:ps:direttore-sportivo",
+   "clubId": "cesena",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p078",
+   "dalGiorniFa": 4
+  },
+  {
+   "id": "cesena:ps:direttore-area-tecnica",
+   "clubId": "cesena",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p122",
+   "dalGiorniFa": 594
+  },
+  {
+   "id": "cesena:ps:responsabile-scouting",
+   "clubId": "cesena",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p123",
+   "dalGiorniFa": 981
+  },
+  {
+   "id": "cesena:ps:allenatore",
+   "clubId": "cesena",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p124",
+   "dalGiorniFa": 587
+  },
+  {
+   "id": "cesena:ps:team-manager",
+   "clubId": "cesena",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p125",
+   "dalGiorniFa": 968
+  },
+  {
+   "id": "cesena:ps:segreteria-sportiva",
+   "clubId": "cesena",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p126",
+   "dalGiorniFa": 145
+  },
+  {
+   "id": "cesena:sg:responsabile-settore-giovanile",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p127",
+   "dalGiorniFa": 591
+  },
+  {
+   "id": "cesena:sg:coordinatore-tecnico",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p128",
+   "dalGiorniFa": 811
+  },
+  {
+   "id": "cesena:sg:responsabile-scouting-giovanile",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p129",
+   "dalGiorniFa": 724
+  },
+  {
+   "id": "cesena:sg:allenatore-primavera",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p130",
+   "dalGiorniFa": 667
+  },
+  {
+   "id": "cesena:sg:allenatore-u18",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p131",
+   "dalGiorniFa": 136
+  },
+  {
+   "id": "cesena:sg:allenatore-u17",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p132",
+   "dalGiorniFa": 230
+  },
+  {
+   "id": "cesena:sg:allenatore-u16",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p133",
+   "dalGiorniFa": 296
+  },
+  {
+   "id": "cesena:sg:allenatore-u15",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p134",
+   "dalGiorniFa": 608
+  },
+  {
+   "id": "cesena:sg:segreteria-settore-giovanile",
+   "clubId": "cesena",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p135",
+   "dalGiorniFa": 622
+  },
+  {
+   "id": "vicenza:ps:direttore-sportivo",
+   "clubId": "vicenza",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p136",
+   "dalGiorniFa": 255
+  },
+  {
+   "id": "vicenza:ps:direttore-area-tecnica",
+   "clubId": "vicenza",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p137",
+   "dalGiorniFa": 849
+  },
+  {
+   "id": "vicenza:ps:responsabile-scouting",
+   "clubId": "vicenza",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p138",
+   "dalGiorniFa": 537
+  },
+  {
+   "id": "vicenza:ps:allenatore",
+   "clubId": "vicenza",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p139",
+   "dalGiorniFa": 905
+  },
+  {
+   "id": "vicenza:ps:team-manager",
+   "clubId": "vicenza",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p140",
+   "dalGiorniFa": 205
+  },
+  {
+   "id": "vicenza:ps:segreteria-sportiva",
+   "clubId": "vicenza",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p141",
+   "dalGiorniFa": 676
+  },
+  {
+   "id": "vicenza:sg:responsabile-settore-giovanile",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p142",
+   "dalGiorniFa": 999
+  },
+  {
+   "id": "vicenza:sg:coordinatore-tecnico",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p143",
+   "dalGiorniFa": 178
+  },
+  {
+   "id": "vicenza:sg:responsabile-scouting-giovanile",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p144",
+   "dalGiorniFa": 655
+  },
+  {
+   "id": "vicenza:sg:allenatore-primavera",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p145",
+   "dalGiorniFa": 341
+  },
+  {
+   "id": "vicenza:sg:allenatore-u18",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U18",
+   "personaId": "p146",
+   "dalGiorniFa": 448
+  },
+  {
+   "id": "vicenza:sg:allenatore-u17",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p147",
+   "dalGiorniFa": 387
+  },
+  {
+   "id": "vicenza:sg:allenatore-u16",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p148",
+   "dalGiorniFa": 388
+  },
+  {
+   "id": "vicenza:sg:allenatore-u15",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p149",
+   "dalGiorniFa": 437
+  },
+  {
+   "id": "vicenza:sg:segreteria-settore-giovanile",
+   "clubId": "vicenza",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p150",
+   "dalGiorniFa": 336
+  },
+  {
+   "id": "novara:ps:direttore-sportivo",
+   "clubId": "novara",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p235",
+   "dalGiorniFa": 2
+  },
+  {
+   "id": "novara:ps:direttore-area-tecnica",
+   "clubId": "novara",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p152",
+   "dalGiorniFa": 445
+  },
+  {
+   "id": "novara:ps:responsabile-scouting",
+   "clubId": "novara",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p153",
+   "dalGiorniFa": 725
+  },
+  {
+   "id": "novara:ps:allenatore",
+   "clubId": "novara",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p154",
+   "dalGiorniFa": 659
+  },
+  {
+   "id": "novara:ps:team-manager",
+   "clubId": "novara",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p155",
+   "dalGiorniFa": 315
+  },
+  {
+   "id": "novara:ps:segreteria-sportiva",
+   "clubId": "novara",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p156",
+   "dalGiorniFa": 543
+  },
+  {
+   "id": "novara:sg:responsabile-settore-giovanile",
+   "clubId": "novara",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p157",
+   "dalGiorniFa": 370
+  },
+  {
+   "id": "novara:sg:coordinatore-tecnico",
+   "clubId": "novara",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p158",
+   "dalGiorniFa": 626
+  },
+  {
+   "id": "novara:sg:responsabile-scouting-giovanile",
+   "clubId": "novara",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p159",
+   "dalGiorniFa": 615
+  },
+  {
+   "id": "novara:sg:allenatore-primavera",
+   "clubId": "novara",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p160",
+   "dalGiorniFa": 696
+  },
+  {
+   "id": "novara:sg:allenatore-u17",
+   "clubId": "novara",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p161",
+   "dalGiorniFa": 446
+  },
+  {
+   "id": "novara:sg:allenatore-u16",
+   "clubId": "novara",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p162",
+   "dalGiorniFa": 197
+  },
+  {
+   "id": "novara:sg:allenatore-u15",
+   "clubId": "novara",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p163",
+   "dalGiorniFa": 754
+  },
+  {
+   "id": "novara:sg:segreteria-settore-giovanile",
+   "clubId": "novara",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p164",
+   "dalGiorniFa": 919
+  },
+  {
+   "id": "trento:ps:direttore-sportivo",
+   "clubId": "trento",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p165",
+   "dalGiorniFa": 783
+  },
+  {
+   "id": "trento:ps:direttore-area-tecnica",
+   "clubId": "trento",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p166",
+   "dalGiorniFa": 216
+  },
+  {
+   "id": "trento:ps:responsabile-scouting",
+   "clubId": "trento",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p167",
+   "dalGiorniFa": 503
+  },
+  {
+   "id": "trento:ps:allenatore",
+   "clubId": "trento",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p168",
+   "dalGiorniFa": 783
+  },
+  {
+   "id": "trento:ps:team-manager",
+   "clubId": "trento",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p169",
+   "dalGiorniFa": 174
+  },
+  {
+   "id": "trento:ps:segreteria-sportiva",
+   "clubId": "trento",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p170",
+   "dalGiorniFa": 633
+  },
+  {
+   "id": "trento:sg:responsabile-settore-giovanile",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p171",
+   "dalGiorniFa": 200
+  },
+  {
+   "id": "trento:sg:coordinatore-tecnico",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p172",
+   "dalGiorniFa": 682
+  },
+  {
+   "id": "trento:sg:responsabile-scouting-giovanile",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p173",
+   "dalGiorniFa": 933
+  },
+  {
+   "id": "trento:sg:allenatore-primavera",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p174",
+   "dalGiorniFa": 115
+  },
+  {
+   "id": "trento:sg:allenatore-u17",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17"
+  },
+  {
+   "id": "trento:sg:allenatore-u16",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p176",
+   "dalGiorniFa": 366
+  },
+  {
+   "id": "trento:sg:allenatore-u15",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p177",
+   "dalGiorniFa": 105
+  },
+  {
+   "id": "trento:sg:segreteria-settore-giovanile",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p178",
+   "dalGiorniFa": 210
+  },
+  {
+   "id": "spezia:ps:direttore-sportivo",
+   "clubId": "spezia",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p179",
+   "dalGiorniFa": 217
+  },
+  {
+   "id": "spezia:ps:direttore-area-tecnica",
+   "clubId": "spezia",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p180",
+   "dalGiorniFa": 737
+  },
+  {
+   "id": "spezia:ps:responsabile-scouting",
+   "clubId": "spezia",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p181",
+   "dalGiorniFa": 233
+  },
+  {
+   "id": "spezia:ps:allenatore",
+   "clubId": "spezia",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p182",
+   "dalGiorniFa": 734
+  },
+  {
+   "id": "spezia:ps:team-manager",
+   "clubId": "spezia",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p183",
+   "dalGiorniFa": 329
+  },
+  {
+   "id": "spezia:ps:segreteria-sportiva",
+   "clubId": "spezia",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p184",
+   "dalGiorniFa": 638
+  },
+  {
+   "id": "spezia:sg:responsabile-settore-giovanile",
+   "clubId": "spezia",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p185",
+   "dalGiorniFa": 441
+  },
+  {
+   "id": "spezia:sg:coordinatore-tecnico",
+   "clubId": "spezia",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p186",
+   "dalGiorniFa": 963
+  },
+  {
+   "id": "spezia:sg:responsabile-scouting-giovanile",
+   "clubId": "spezia",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p187",
+   "dalGiorniFa": 832
+  },
+  {
+   "id": "spezia:sg:allenatore-primavera",
+   "clubId": "spezia",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p188",
+   "dalGiorniFa": 247
+  },
+  {
+   "id": "spezia:sg:allenatore-u17",
+   "clubId": "spezia",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p189",
+   "dalGiorniFa": 603
+  },
+  {
+   "id": "spezia:sg:allenatore-u16",
+   "clubId": "spezia",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p190",
+   "dalGiorniFa": 580
+  },
+  {
+   "id": "spezia:sg:allenatore-u15",
+   "clubId": "spezia",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p191",
+   "dalGiorniFa": 693
+  },
+  {
+   "id": "spezia:sg:segreteria-settore-giovanile",
+   "clubId": "spezia",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p192",
+   "dalGiorniFa": 892
+  },
+  {
+   "id": "perugia:ps:direttore-sportivo",
+   "clubId": "perugia",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p193",
+   "dalGiorniFa": 435
+  },
+  {
+   "id": "perugia:ps:direttore-area-tecnica",
+   "clubId": "perugia",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p194",
+   "dalGiorniFa": 839
+  },
+  {
+   "id": "perugia:ps:responsabile-scouting",
+   "clubId": "perugia",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p195",
+   "dalGiorniFa": 366
+  },
+  {
+   "id": "perugia:ps:allenatore",
+   "clubId": "perugia",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p196",
+   "dalGiorniFa": 551
+  },
+  {
+   "id": "perugia:ps:team-manager",
+   "clubId": "perugia",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p197",
+   "dalGiorniFa": 208
+  },
+  {
+   "id": "perugia:ps:segreteria-sportiva",
+   "clubId": "perugia",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p198",
+   "dalGiorniFa": 677
+  },
+  {
+   "id": "perugia:sg:responsabile-settore-giovanile",
+   "clubId": "perugia",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p199",
+   "dalGiorniFa": 991
+  },
+  {
+   "id": "perugia:sg:coordinatore-tecnico",
+   "clubId": "perugia",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p200",
+   "dalGiorniFa": 125
+  },
+  {
+   "id": "perugia:sg:responsabile-scouting-giovanile",
+   "clubId": "perugia",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p201",
+   "dalGiorniFa": 324
+  },
+  {
+   "id": "perugia:sg:allenatore-primavera",
+   "clubId": "perugia",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p202",
+   "dalGiorniFa": 229
+  },
+  {
+   "id": "perugia:sg:allenatore-u17",
+   "clubId": "perugia",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p203",
+   "dalGiorniFa": 650
+  },
+  {
+   "id": "perugia:sg:allenatore-u16",
+   "clubId": "perugia",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p204",
+   "dalGiorniFa": 166
+  },
+  {
+   "id": "perugia:sg:allenatore-u15",
+   "clubId": "perugia",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p205",
+   "dalGiorniFa": 94
+  },
+  {
+   "id": "perugia:sg:segreteria-settore-giovanile",
+   "clubId": "perugia",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p206",
+   "dalGiorniFa": 589
+  },
+  {
+   "id": "bari:ps:direttore-sportivo",
+   "clubId": "bari",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p207",
+   "dalGiorniFa": 867
+  },
+  {
+   "id": "bari:ps:direttore-area-tecnica",
+   "clubId": "bari",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p208",
+   "dalGiorniFa": 752
+  },
+  {
+   "id": "bari:ps:responsabile-scouting",
+   "clubId": "bari",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p209",
+   "dalGiorniFa": 686
+  },
+  {
+   "id": "bari:ps:allenatore",
+   "clubId": "bari",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p210",
+   "dalGiorniFa": 657
+  },
+  {
+   "id": "bari:ps:team-manager",
+   "clubId": "bari",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p211",
+   "dalGiorniFa": 552
+  },
+  {
+   "id": "bari:ps:segreteria-sportiva",
+   "clubId": "bari",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p212",
+   "dalGiorniFa": 304
+  },
+  {
+   "id": "bari:sg:responsabile-settore-giovanile",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p213",
+   "dalGiorniFa": 989
+  },
+  {
+   "id": "bari:sg:coordinatore-tecnico",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p214",
+   "dalGiorniFa": 912
+  },
+  {
+   "id": "bari:sg:responsabile-scouting-giovanile",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p215",
+   "dalGiorniFa": 350
+  },
+  {
+   "id": "bari:sg:allenatore-primavera",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p236",
+   "dalGiorniFa": 6
+  },
+  {
+   "id": "bari:sg:allenatore-u17",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p217",
+   "dalGiorniFa": 452
+  },
+  {
+   "id": "bari:sg:allenatore-u16",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p218",
+   "dalGiorniFa": 209
+  },
+  {
+   "id": "bari:sg:allenatore-u15",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p219",
+   "dalGiorniFa": 402
+  },
+  {
+   "id": "bari:sg:segreteria-settore-giovanile",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p220",
+   "dalGiorniFa": 736
+  },
+  {
+   "id": "catania:ps:direttore-sportivo",
+   "clubId": "catania",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p221",
+   "dalGiorniFa": 230
+  },
+  {
+   "id": "catania:ps:direttore-area-tecnica",
+   "clubId": "catania",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p222",
+   "dalGiorniFa": 784
+  },
+  {
+   "id": "catania:ps:responsabile-scouting",
+   "clubId": "catania",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "personaId": "p223",
+   "dalGiorniFa": 274
+  },
+  {
+   "id": "catania:ps:allenatore",
+   "clubId": "catania",
+   "area": "prima-squadra",
+   "ruolo": "Allenatore",
+   "personaId": "p224",
+   "dalGiorniFa": 851
+  },
+  {
+   "id": "catania:ps:team-manager",
+   "clubId": "catania",
+   "area": "prima-squadra",
+   "ruolo": "Team manager",
+   "personaId": "p225",
+   "dalGiorniFa": 867
+  },
+  {
+   "id": "catania:ps:segreteria-sportiva",
+   "clubId": "catania",
+   "area": "prima-squadra",
+   "ruolo": "Segreteria sportiva",
+   "personaId": "p226",
+   "dalGiorniFa": 847
+  },
+  {
+   "id": "catania:sg:responsabile-settore-giovanile",
+   "clubId": "catania",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p227",
+   "dalGiorniFa": 360
+  },
+  {
+   "id": "catania:sg:coordinatore-tecnico",
+   "clubId": "catania",
+   "area": "settore-giovanile",
+   "ruolo": "Coordinatore tecnico",
+   "personaId": "p228",
+   "dalGiorniFa": 710
+  },
+  {
+   "id": "catania:sg:responsabile-scouting-giovanile",
+   "clubId": "catania",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p229",
+   "dalGiorniFa": 693
+  },
+  {
+   "id": "catania:sg:allenatore-primavera",
+   "clubId": "catania",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p230",
+   "dalGiorniFa": 574
+  },
+  {
+   "id": "catania:sg:allenatore-u17",
+   "clubId": "catania",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "personaId": "p231",
+   "dalGiorniFa": 552
+  },
+  {
+   "id": "catania:sg:allenatore-u16",
+   "clubId": "catania",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U16",
+   "personaId": "p232",
+   "dalGiorniFa": 161
+  },
+  {
+   "id": "catania:sg:allenatore-u15",
+   "clubId": "catania",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U15",
+   "personaId": "p233",
+   "dalGiorniFa": 247
+  },
+  {
+   "id": "catania:sg:segreteria-settore-giovanile",
+   "clubId": "catania",
+   "area": "settore-giovanile",
+   "ruolo": "Segreteria settore giovanile",
+   "personaId": "p234",
+   "dalGiorniFa": 915
+  }
+ ],
+ "cambi": [
+  {
+   "id": "c1",
+   "tipo": "nuovo-arrivo",
+   "clubId": "novara",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p235",
+   "precedentePersonaId": "p151",
+   "giorniFa": 2
+  },
+  {
+   "id": "c2",
+   "tipo": "cambio",
+   "clubId": "cesena",
+   "area": "prima-squadra",
+   "ruolo": "Direttore sportivo",
+   "personaId": "p078",
+   "precedentePersonaId": "p121",
+   "provenienza": "Responsabile scouting della Sampdoria",
+   "giorniFa": 4
+  },
+  {
+   "id": "c3",
+   "tipo": "ruolo-vacante",
+   "clubId": "sampdoria",
+   "area": "prima-squadra",
+   "ruolo": "Responsabile scouting",
+   "precedentePersonaId": "p078",
+   "giorniFa": 4
+  },
+  {
+   "id": "c4",
+   "tipo": "nuovo-arrivo",
+   "clubId": "bari",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "Primavera",
+   "personaId": "p236",
+   "precedentePersonaId": "p216",
+   "giorniFa": 6
+  },
+  {
+   "id": "c5",
+   "tipo": "cambio",
+   "clubId": "monza",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile settore giovanile",
+   "personaId": "p068",
+   "precedentePersonaId": "p067",
+   "provenienza": "Coordinatore tecnico del Monza",
+   "giorniFa": 9
+  },
+  {
+   "id": "c6",
+   "tipo": "ruolo-vacante",
+   "clubId": "trento",
+   "area": "settore-giovanile",
+   "ruolo": "Allenatore",
+   "squadra": "U17",
+   "precedentePersonaId": "p175",
+   "giorniFa": 12
+  },
+  {
+   "id": "c7",
+   "tipo": "nuovo-arrivo",
+   "clubId": "palermo",
+   "area": "prima-squadra",
+   "ruolo": "Direttore area tecnica",
+   "personaId": "p238",
+   "precedentePersonaId": "p092",
+   "giorniFa": 15
+  },
+  {
+   "id": "c8",
+   "tipo": "nuovo-arrivo",
+   "clubId": "atalanta",
+   "area": "settore-giovanile",
+   "ruolo": "Responsabile scouting giovanile",
+   "personaId": "p239",
+   "precedentePersonaId": "p039",
+   "giorniFa": 21
+  }
+ ]
+}

@@ -17,7 +17,11 @@ Un solo procuratore. Non c'è login.
 - Nessuna pagina privacy e nessuna etichetta "DEMO" (scelta del committente).
 
 ## Dati
-- **16 club** con **nomi reali**: 5 di Serie A, 5 di Serie B, 6 di Serie C (2 per girone), della stagione in corso (da verificare prima di costruire).
+- **16 club** con **nomi reali**: 5 di Serie A, 5 di Serie B, 6 di Serie C (2 per girone), della stagione in corso. Elenco verificato sul web e confermato il 26/11/2026:
+  - Serie A: Atalanta, Bologna, Inter, Monza, Napoli
+  - Serie B: Cesena, Hellas Verona, Palermo, Sampdoria, Vicenza
+  - Serie C: Novara, Trento (girone A) · Perugia, Spezia (girone B) · Bari, Catania (girone C)
+- Squadre del settore giovanile: Primavera, U18, U17, U16, U15 per A e B; Primavera, U17, U16, U15 per la C (ipotesi non verificata: sono scritte nei dati di ogni club, si correggono lì).
 - Stemmi segnaposto (cerchio con iniziali nei colori sociali), **mai loghi ufficiali**.
 - **Persone tutte inventate.** Nessun numero di persona fornito dall'app.
 - Unico recapito fornito: **segreteria del settore giovanile** (telefono ed email finti).
@@ -59,7 +63,7 @@ Tocchi su Chiama o WhatsApp fatti dall'app, etichetta "Contattato". Salvati solo
 
 ## Tecnologia (base per l'app vera)
 - **React + TypeScript + Vite**, pubblicazione automatica su GitHub Pages a ogni push.
-- Ogni schermata ha il suo indirizzo (link diretto, tasto Indietro che funziona).
+- Ogni schermata ha il suo indirizzo (link diretto, tasto Indietro che funziona). Su GitHub Pages si usano indirizzi con `#` (HashRouter, scelto il 26/11/2026): niente errori 404 ricaricando una pagina interna; con un server vero si passerà a indirizzi puliti cambiando una riga.
 - Le schermate leggono i dati solo da un **servizio dati**: nella demo legge il file finto, nell'app vera chiamerà il backend (Spring Boot) senza toccare le schermate.
 - Dati del procuratore (numeri aggiunti, Preferiti, Recenti, ricerche recenti) salvati solo sul telefono.
 
@@ -108,6 +112,6 @@ Tocchi su Chiama o WhatsApp fatti dall'app, etichetta "Contattato". Salvati solo
 - "Salva nei contatti" passa da un file `.vcf` (2-3 tocchi).
 - Su iPhone, se l'app non è installata e non viene aperta per circa 7 giorni, i dati salvati (numeri, Preferiti, Recenti) possono essere cancellati dal browser.
 
-## Da verificare prima di costruire
-- Club di Serie A, B e C della stagione 2026-27 (composizione dei gironi di C).
+## Da verificare prima di pubblicare
 - Su GitHub Pages, il repository deve essere pubblico (Pages su repo privati richiede un piano a pagamento): ok perché i dati sono finti.
+- Il nome del repository decide l'indirizzo (`…github.io/<nome>/`) e deve coincidere con `base` in `vite.config.ts`.
